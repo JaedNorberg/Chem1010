@@ -51,6 +51,7 @@ html {
   margin: 0 auto;
 }
 
+/* family & circles images */
 #circles {
   width: 100%;
   max-width: 700px;
@@ -58,9 +59,7 @@ html {
   margin-left: auto;
 }
 
-.hoverArea {
-  padding: 20px;
-}
+/* Hover areas + tooltip toggle */
 
 .hoverArea .tooltip {
   opacity: 0;
@@ -82,21 +81,13 @@ html {
   opacity: 1;
 }
 
-#banner {
-  width: 100%;
-  height: 100px;
-
-  align-self: flex-end;
-
-  background-color: #efcc8c;
-}
-
-/* HoverAreas */
 .hoverArea {
   position: absolute;
 
   width: 30%;
   height: 28.3%;
+
+  padding: 20px;
 
   border-radius: 100%;
 
@@ -114,6 +105,15 @@ html {
 .hoverArea[data-id="3"] {
   left: 39.3%;
   bottom: 35.2%;
+}
+
+#banner {
+  width: 100%;
+  height: 100px;
+
+  align-self: flex-end;
+
+  background-color: #efcc8c;
 }
 
 /* Bottom Section */
