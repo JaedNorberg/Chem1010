@@ -29,7 +29,7 @@ html {
 
 /* Top Section*/
 .section#top {
-  background-image: url("./Media/background-both.png");
+  background-image: url("./media/background-both.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
