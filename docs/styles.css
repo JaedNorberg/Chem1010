@@ -1,61 +1,122 @@
-.container {
-  position: relative;
+* {
+  box-sizing: border-box;
 }
-#divSectionTop {
-  width: 1994px;
-  height: 997px;
-  overflow: hidden;
-}
-#divTopBanner {
-  position: absolute;
-  top: 49%;
-  left: 0px;
-  width: 96.5%;
-  height: 10%;
-  background-color: #ffdd88;
-  z-index: 3;
-}
-#divTriGroup {
-  position: absolute;
-  top: 10%;
-  left: 16%;
-  max-width: 25%;
-  height: auto;
-  z-index: 3;
+body,
+html {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
-#imgBackground {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  margin-left: -18px;
-  margin-top: -18px;
-  max-width: 100%;
-  height: auto;
-  z-index: 1;
+/* General */
+.v-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
-#imgSpaceAccent {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  max-width: 96.5%;
-  height: auto;
-  z-index: 2;
+
+/* flex sections (left/right) */
+.left,
+.right {
+  width: 50%;
+  padding: 10px;
+  min-width: 320px;
 }
-#imgFamily {
-  position: absolute;
-  vertical-align: bottom;
-  top: 24%;
-  left: 1%;
-  max-width: 25%;
-  height: auto;
-  z-index: 4;
+
+.left {
+  position: relative;
 }
-#imgTriGroup {
+
+/* Top Section*/
+.section#top {
+  background-image: url("./Media/background-both.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100vw;
+  min-height: 90vh;
+
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#mainTitle {
+  width: 100%;
+  max-width: 400px;
+
+  position: relative;
+
+  margin: 0 auto;
+}
+
+#circles {
+  width: 100%;
+  max-width: 700px;
+
+  margin-left: auto;
+}
+
+.hoverArea {
+  padding: 20px;
+}
+
+.hoverArea .tooltip {
+  opacity: 0;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 100%;
+  padding: 10px;
+
+  background: white;
+  pointer-events: none;
+
+  transition: opacity 0.5s ease;
+
+  text-align: center;
+}
+.hoverArea.show .tooltip {
+  opacity: 1;
+}
+
+#banner {
+  width: 100%;
+  height: 100px;
+
+  align-self: flex-end;
+
+  background-color: #efcc8c;
+}
+
+/* HoverAreas */
+.hoverArea {
   position: absolute;
-  top: 10%;
-  left: 16%;
-  max-width: 25%;
-  height: auto;
-  z-index: 3;
+
+  width: 30%;
+  height: 28.3%;
+
+  border-radius: 100%;
+
+  cursor: pointer;
+}
+
+.hoverArea[data-id="1"] {
+  top: 0.3%;
+  left: 31%;
+}
+.hoverArea[data-id="2"] {
+  right: 0.3%;
+  top: 10.5%;
+}
+.hoverArea[data-id="3"] {
+  left: 39.3%;
+  bottom: 35.2%;
+}
+
+/* Bottom Section */
+.section#bottom {
+  /* todo */
 }

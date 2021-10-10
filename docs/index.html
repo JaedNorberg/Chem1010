@@ -5,21 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fluorine</title>
+    <!-- css reset -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css"
+    />
+    <!-- default css -->
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./scripts.js" defer></script>
   </head>
 
   <body>
-    <div class="container">
-      <div id="divSectionTop">
-        <img id="imgBackground" src="Media/Background.png" />
-        <img id="imgSpaceAccent" src="Media/Space-Accent.png" />
-        <div id="divTopBanner"></div>
-        <img id="imgFamily" src="Media/Family.png" />
-        <div id="divTriGroup"></div>
-        <img id="imgTriGroup" src="Media/Tri-Group.png" />
+    <div id="top" class="section">
+      <div class="left">
+        <div id="circles" class="v-center">
+          <img src="./Media/family-circles.png" alt="" />
+          <div class="hoverArea" data-id="1">
+            <div class="tooltip">asdf</div>
+          </div>
+          <div class="hoverArea" data-id="2">
+            <div class="tooltip">asdf</div>
+          </div>
+          <div class="hoverArea" data-id="3">
+            <div class="tooltip">asdf</div>
+          </div>
+        </div>
       </div>
+      <div class="right">
+        <div id="mainTitle" class="v-center">
+          <img src="./Media/Title.png" alt="" id="title" />
+        </div>
+      </div>
+      <div id="banner">banner</div>
     </div>
-
-    <p>Hello Chemistry!</p>
+    <div id="bottom" class="section">asdf</div>
   </body>
 </html>
