@@ -274,3 +274,13 @@ body {
   -webkit-clip-path: polygon(26% 0, 26% 20%, 100% 49%, 100% 100%, 0 100%, 0 0);
   float: left;
 }
+
+/* trio images */
+.trio {
+  width: 1000px;
+  padding: 30px;
+  margin: 0 auto;
+}
+.trio img {
+  width: 100%;
+}
