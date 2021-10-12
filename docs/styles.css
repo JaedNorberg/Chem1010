@@ -27,13 +27,13 @@ body {
 }
 .torn {
   z-index: 11;
-  background-image: url(./media/torn.png);
+  background-image: url(./Media/torn.png);
   background-position: center;
   background-size: 109% 115%;
 }
 .texture {
   z-index: 10;
-  background-image: url(./media/worn.jpg);
+  background-image: url(./Media/worn.jpg);
   background-position: center;
   opacity: 0.02;
 }
