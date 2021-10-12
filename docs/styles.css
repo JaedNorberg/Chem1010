@@ -260,6 +260,10 @@ body {
   padding: 20px 15px 0 10px;
   clip-path: polygon(24% 0, 100% 0, 100% 70%, 24% 33%);
 }
+.banner span {
+  font-size: 20px;
+  font-style: italic;
+}
 .banner .shaped {
   width: 100%;
   height: 100%;
