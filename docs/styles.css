@@ -19,6 +19,12 @@ body {
   min-width: 1300px;
 }
 
+/* main */
+.main,
+.second {
+  position: relative;
+}
+
 /* Overlay */
 .overlay {
   width: 100%;
@@ -29,6 +35,12 @@ body {
 .torn {
   z-index: 11;
   background-image: url(./Media/torn.png);
+  background-position: center;
+  background-size: 109% 115%;
+}
+.torn2 {
+  z-index: 11;
+  background-image: url(./Media/torn-2.png);
   background-position: center;
   background-size: 109% 115%;
 }
@@ -231,4 +243,34 @@ body {
 .callout span {
   font-size: 25px;
   font-style: italic;
+}
+
+/* last */
+#last {
+  margin-top: 20px;
+  min-height: 790px;
+}
+
+#last .banner {
+  position: relative;
+  width: 800px;
+  height: 200px;
+  background-color: #efcc8c;
+  margin-left: auto;
+  padding: 20px 15px 0 10px;
+  clip-path: polygon(24% 0, 100% 0, 100% 70%, 24% 33%);
+}
+.banner .shaped {
+  width: 100%;
+  height: 100%;
+  -webkit-shape-outside: polygon(
+    26% 0,
+    26% 20%,
+    100% 49%,
+    100% 100%,
+    0 100%,
+    0 0
+  );
+  -webkit-clip-path: polygon(26% 0, 26% 20%, 100% 49%, 100% 100%, 0 100%, 0 0);
+  float: left;
 }
