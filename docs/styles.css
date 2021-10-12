@@ -283,8 +283,25 @@ body {
 .trio {
   width: 1000px;
   padding: 30px;
-  margin: 0 auto;
 }
 .trio img {
   width: 100%;
+}
+.content {
+  display: flex;
+}
+.content .text {
+  width: 450px;
+  padding: 40px;
+  line-height: 23px;
+}
+
+.text p,
+.text h2 {
+  padding-bottom: 15px;
+}
+
+.text h2 {
+  font-size: 30px;
+  font-style: italic;
 }
