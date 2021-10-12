@@ -94,6 +94,15 @@ body {
   margin-left: auto;
 }
 
+.hand {
+  position: absolute;
+  width: 30px;
+  right: 7%;
+  top: 56%;
+  transform: rotate(334deg);
+  opacity: 0.9;
+}
+
 .family {
   position: absolute;
   bottom: 50px;
