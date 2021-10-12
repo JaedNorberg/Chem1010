@@ -14,21 +14,28 @@
     <link rel="stylesheet" href="./styles.css" />
     <script src="./scripts.js" defer></script>
   </head>
-
   <body>
+    <div class="overlay torn"></div>
+    <div class="overlay texture"></div>
     <div id="top" class="section">
       <div class="left">
         <div id="circles" class="v-center">
-          <img src="./Media/family-circles.png" alt="" />
+          <img src="./Media/circles.png" alt="" />
           <!-- Tooltip Areas -->
           <div class="hoverArea" data-id="1">
-            <div class="tooltip">asdf</div>
+            <div class="tooltip">
+              <div class="circTxt" data-id="Hello World!"></div>
+            </div>
           </div>
           <div class="hoverArea" data-id="2">
-            <div class="tooltip">asdf</div>
+            <div class="tooltip">
+              <div class="circTxt" data-id="Hello World"></div>
+            </div>
           </div>
           <div class="hoverArea" data-id="3">
-            <div class="tooltip">asdf</div>
+            <div class="tooltip">
+              <div class="circTxt" data-id="Hello World!"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -38,8 +45,15 @@
           <img src="./Media/Title.png" id="title" />
         </div>
       </div>
-      <div id="banner">banner</div>
     </div>
-    <div id="bottom" class="section">asdf</div>
+    <div id="bottom">
+      bottom
+      <div class="family">
+        <p class="familyText">
+          Even <span>We</span> use Fluorine-based plastic (PVFD) at home!
+        </p>
+        <img src="./Media/family.png" alt="" />
+      </div>
+    </div>
   </body>
 </html>

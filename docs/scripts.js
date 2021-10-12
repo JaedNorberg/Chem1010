@@ -27,4 +27,30 @@ function setHoverAreaEvents() {
   });
 }
 
+//circle text for hover popup
+function circularText(obj) {
+  let classIndex = document.getElementsByClassName("circTxt")[obj.idx];
+  let txt = classIndex.getAttribute("data-id").split("");
+  let deg = obj.deg / txt.length;
+  let origin = obj.origin;
+
+  txt.forEach((ea) => {
+    ea = `<p style='height:${obj.radius}px;
+    position: absolute;
+    transform:rotate(${origin}deg);
+    transform-origin:0 100%'>${ea}</p>`;
+    classIndex.innerHTML += ea;
+    origin += deg;
+  });
+}
+
+for (let i = 0; i < 3; i++) {
+  circularText({
+    idx: i,
+    radius: 120,
+    deg: 80,
+    origin: -40,
+  });
+}
+
 setHoverAreaEvents();
