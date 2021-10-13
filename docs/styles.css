@@ -123,30 +123,17 @@ body {
   width: 350px;
 }
 
-.familyText1 {
-  position: absolute;
-  padding: 5px;
-  top: 1%;
-  left: 1%;
-  width: 71%;
-  text-align: left;
-  font-size: 97%;
-  font-style: italic;
-  letter-spacing: 1px;
-  line-height: 22px;
-}
-
 .familyText {
   position: absolute;
   padding: 5px;
-  top: 16%;
-  left: 1%;
+  top: 1%;
+  left: 3%;
   width: 75%;
   text-align: left;
   font-size: 105%;
   font-style: italic;
   letter-spacing: 1px;
-  line-height: 24px;
+  line-height: 28px;
 }
 .familyText span {
   display: inline-block;
