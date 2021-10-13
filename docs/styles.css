@@ -123,17 +123,30 @@ body {
   width: 350px;
 }
 
+.familyText1 {
+  position: absolute;
+  padding: 5px;
+  top: 1%;
+  left: 1%;
+  width: 71%;
+  text-align: left;
+  font-size: 97%;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 22px;
+}
+
 .familyText {
   position: absolute;
   padding: 5px;
-  top: 2%;
+  top: 16%;
   left: 1%;
-  width: 74%;
-  text-align: center;
-  font-size: 110%;
+  width: 75%;
+  text-align: left;
+  font-size: 105%;
   font-style: italic;
   letter-spacing: 1px;
-  line-height: 33px;
+  line-height: 24px;
 }
 .familyText span {
   display: inline-block;
@@ -155,12 +168,13 @@ body {
 
   pointer-events: none;
   color: transparent;
+  background-color: transparent;
 
   transition: border 0.15s ease-out, opacity 0.2s ease-out;
 
   text-align: center;
   border: 0px solid white;
-  clip-path: polygon(0 0, 100% 0, 100% 20%, 0 20%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 20%, 0 20%); */
 }
 
 .tooltip img {
@@ -174,13 +188,24 @@ body {
   opacity: 0.9;
   border: 30px solid white;
   color: #232323;
+  background-color: white;
 }
 
 .circTxt {
+  width: 100%;
+  height: 100%;
   top: -35px;
   left: 50%;
   position: relative;
   z-index: 5;
+}
+.circTxt .pc {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: -50%;
+  text-align: center;
+  display: inline-block;
 }
 
 .hoverArea {
@@ -281,12 +306,43 @@ body {
 
 /* trio images */
 .trio {
+  position: relative;
   width: 1000px;
   padding: 30px;
 }
 .trio img {
   width: 100%;
 }
+
+.trio p {
+  position: absolute;
+  background-color: white;
+  border: 2px solid;
+  max-width: 150px;
+  padding: 5px 10px;
+}
+
+.trio p:nth-of-type(1) {
+  top: 5%;
+  left: -1%;
+}
+.trio p:nth-of-type(2) {
+  top: 56%;
+  left: 6%;
+}
+.trio p:nth-of-type(3) {
+  top: 63%;
+  left: 31%;
+}
+.trio p:nth-of-type(4) {
+  top: 18%;
+  left: 52%;
+}
+.trio p:nth-of-type(5) {
+  top: 70%;
+  left: 76%;
+}
+
 .content {
   display: flex;
 }
