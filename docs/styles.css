@@ -170,7 +170,8 @@ body {
   color: transparent;
   background-color: transparent;
 
-  transition: border 0.15s ease-out, opacity 0.2s ease-out;
+  transition: border 0.15s ease-out, opacity 0.2s ease-out,
+    background-color 0.15s ease;
 
   text-align: center;
   border: 0px solid white;
