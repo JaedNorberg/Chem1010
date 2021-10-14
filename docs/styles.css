@@ -344,6 +344,8 @@ body {
   padding: 40px;
   min-width: 400px;
   max-width: 400px;
+  max-height: 605px;
+  overflow: auto;
 }
 .next h2 {
   font-size: 30px;
