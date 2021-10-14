@@ -120,20 +120,20 @@ body {
   position: absolute;
   bottom: 50px;
   left: 50px;
-  width: 350px;
+  width: 250px;
 }
 
 .familyText {
   position: absolute;
   padding: 5px;
-  top: 1%;
+  top: 0.7%;
   left: 3%;
   width: 75%;
   text-align: left;
-  font-size: 105%;
+  font-size: 84%;
   font-style: italic;
   letter-spacing: 1px;
-  line-height: 28px;
+  line-height: 15px;
 }
 .familyText span {
   display: inline-block;
