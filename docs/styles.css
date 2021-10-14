@@ -16,7 +16,7 @@ html {
 body {
   margin: 10px;
   box-sizing: content-box;
-  min-width: 1300px;
+  min-width: 1480px;
 }
 
 /* main */
@@ -72,7 +72,7 @@ body {
 }
 
 .section {
-  min-width: 1300px;
+  min-width: 1480px;
 }
 
 /* Top Section*/
@@ -333,15 +333,27 @@ body {
 
 .content {
   display: flex;
+  flex-wrap: wrap;
 }
 .content .text {
   width: 450px;
   padding: 40px;
   line-height: 23px;
 }
+.next {
+  padding: 40px;
+  min-width: 400px;
+  max-width: 400px;
+}
+.next h2 {
+  font-size: 30px;
+  font-style: italic;
+}
 
 .text p,
-.text h2 {
+.text h2,
+.next p,
+.next h2 {
   padding-bottom: 15px;
 }
 
