@@ -334,22 +334,36 @@ body {
 .content {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 .content .text {
   width: 450px;
   padding: 40px;
   line-height: 23px;
 }
+.content h1 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
 .next {
-  padding: 40px;
+  border: 2px solid;
+  border-radius: 6px;
+  background: #f5f6ff;
+  padding: 20px;
   min-width: 400px;
   max-width: 400px;
   max-height: 605px;
   overflow: auto;
 }
+.spacer {
+  padding: 20px;
+}
 .next h2 {
-  font-size: 30px;
+  font-size: 23px;
   font-style: italic;
+}
+.next i {
+  color: #b0b0b0;
 }
 
 .text p,
